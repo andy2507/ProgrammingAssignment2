@@ -2,6 +2,9 @@
 ## functions do
 
 ## Write a short comment describing this function
+#The functions calculate the inverse of the matix provided,by initially checking the cache to see 
+#if the inverse of the matrix has already been calculated.if it has been calculated,it  returns the 
+#inverse from the cache. else it calculates the inverse and stores the value in the cache 
 
 makeCacheMatrix<-function(x=matrix()){
   #setting the matrix to initially be null
